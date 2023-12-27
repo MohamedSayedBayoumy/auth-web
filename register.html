@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>BookMark</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="position-relative py-5">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <!-- title -->
+        <!-- Form -->
+        <div
+          class="page gap-4 p-3 mt-5 w-100 d-flex align-items-center justify-content-center flex-column"
+        >
+          <div
+            class="site-name w-100 d-flex flex-column justify-content-center"
+          >
+            <label for="siteName" class="pb-2 fw-semibold">
+              <i class="fa-solid fa-book-bookmark pe-2"></i>
+              Email</label
+            >
+            <input
+              class="form-control"
+              type="text"
+              placeholder="example@example.com"
+              id="userName"
+            />
+          </div>
+          <!-- Second Filed -->
+          <div
+            class="site-name w-100 d-flex flex-column justify-content-center"
+          >
+            <label class="fw-semibold pb-1" for="urlSite">
+              <i class="fa-solid fa-phone"></i>
+              phone</label
+            >
+            <input
+              class="form-control"
+              placeholder="+201111111"
+              type="url"
+              id="phone"
+            />
+          </div>
+          <!-- three Filed -->
+
+          <div
+            class="site-name w-100 d-flex flex-column justify-content-center"
+          >
+            <label class="fw-semibold pb-1" for="urlSite">
+              <i class="fa-solid fa-link"></i>
+              Password</label
+            >
+            <input
+              class="form-control"
+              placeholder="*****"
+
+              type="url"
+              id="password"
+            />
+          </div>
+
+          <p id="error" class="text-danger"></p>
+
+          <!-- Button -->
+          <div
+            class="d-flex justify-content-sm-between align-items-center w-100"
+          >
+            <button onclick="register()" class="btn-submit btn" id="submitBtn">
+              Submit
+            </button>
+            <a href="index.html" class="text-decoration-underline"
+              >Have account?</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
