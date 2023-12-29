@@ -101,10 +101,6 @@ function addNewUser(user) {
   console.log("Local Storage" + localStorage.getItem("users"));
 }
 
-// function vaildation(emailInput) {
-
-//     return alert("Email is valid!");
-//   } else {
-//     return
-//   }
-// }
+function logout() {
+  window.location.href = "index.html";
+}
